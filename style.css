@@ -1,0 +1,240 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Sans Mono', monospace;
+    
+    /* background-color: blanchedalmond; */
+}
+html
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    border: solid 1px red;
+    padding: 10px 15px;
+    background-color: rgb(15, 14, 14);
+    position: fixed;
+    width: 100%; 
+    
+
+}
+header h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    margin-left: 10px;
+    display: inline;
+}
+header h3 {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    margin: 10px 30px;
+    display: inline;
+    float: right;
+    
+}
+
+header h3:hover
+{
+    color: rgb(221, 20, 114);
+    /* text-shadow: 5px 5px 5px rgb(221, 20, 114); */
+}
+
+header a
+{
+    text-decoration: none;
+    
+}
+#top
+{
+    width: 100%;
+    height: 1010px;
+    background-image: url("annie-spratt-cVEOh_JJmEE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    /* justify-content: center;
+    align-items: center;
+    */
+}
+.para{
+    height: 1000px;
+    width: 100%;
+    /* border: solid 5px red; */
+    font-size: 30px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+    /* margin: 100px solid red; */
+}
+.para p
+{
+    color: yellow;
+    /* padding-bottom: 0%; */
+}
+button
+{
+    background: orange;
+    font-size: 20px;
+    color: white;
+    height: 45px;
+    width:170px;
+    border-radius: 15px;
+    border: none;
+}
+button:hover
+{
+    
+    
+    box-shadow: 1px 1px 40px 20px white;
+    text-shadow: 1px 1px 1px blue;
+}
+
+#mid
+{
+  width: 100%;
+  height: 1000px;
+  /* display: flex;
+  flex-flow: row; */
+ 
+}
+
+#abt
+{
+    width: 100%;
+    height: 75px;
+    color: green;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline;
+    /* border: solid 5px white; */
+    background-color: blanchedalmond;
+    
+
+}
+
+#img
+{
+    width: 100%;
+    height:300px;
+    /* border: solid 2px blue; */
+    float: left;
+    background-color: white;
+}
+.img
+{
+    width: 32.5%;
+    height:300px;
+    border: solid 5px white;
+    /* border-radius:6px ; */
+    float: left;
+    align-items: center;
+    
+}
+
+#img1{
+ 
+    background-image: url("img1.jpg");
+    background-size: cover;
+    border-radius:5%;
+    background-repeat: no-repeat;
+
+}
+#img2{
+ 
+    background-image: url("img2.jpg");
+    background-size: cover;
+    border-radius:5%;
+    background-repeat: no-repeat;
+
+}
+#img3{
+ 
+    background-image: url("img3.jpg");
+    background-size: cover;
+    border-radius:5%;
+    background-repeat: no-repeat;
+
+}
+#abt2
+{
+    width: 100%;
+    height: 500px;
+    /* border-top: solid 2px blue; */
+    float: left;
+    /* color: white; */
+    font-size: 20px;
+    background-color: rgb(217, 232, 235);
+    font-weight: bolder;
+
+}
+#stmt
+{
+    width: 100%;
+    height: 100px;
+    /* border: solid 2px blue; */
+    float: left;
+    align-content: center;
+    background-color: white;
+    
+}
+.stmt
+{
+    width: 33%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* color: blueviolet; */
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+    align-content: center;
+}
+
+
+
+.contact
+{
+    width: 100%;
+    height: 500px;
+   
+    background-image: url("contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cont
+{
+    /* margin-right: 45%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: black;
+}
+.cont h1 {
+    font-size: 45px;
+}
+
+.cont p {
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 3px;
+}
+
+
+
+
